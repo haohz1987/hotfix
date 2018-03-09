@@ -2,6 +2,9 @@ apply plugin: 'tinkerpatch-support'
 
 /**
  * TODO: 请按自己的需求修改为适应自己工程的参数
+ * http://tinkerpatch.com/Docs/start
+ * https://www.jianshu.com/p/db504b33bca5
+ *
  */
 def bakPath = file("${buildDir}/bakApk/")   //  基包路径
 def baseInfo = "app-1.0.1-0309-15-24-11"    //  基包文件夹名（打补丁包的时候，需要修改）,改成对应的路径 (app/build生成)
